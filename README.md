@@ -117,7 +117,7 @@ Verify installation: `terraform --version`
       key_name      = "aws_keypair"
 
       tags = {
-        Name = "learn-terraform"
+        Name = "nginx-web-server"
       }
     }
     ```
