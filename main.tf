@@ -29,6 +29,6 @@ resource "aws_instance" "app_server" {
   key_name      = "aws_keypair"
 
   tags = {
-    Name = "learn-terraform"
+    Name = "nginx-web-server"
   }
 }
