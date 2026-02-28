@@ -187,7 +187,7 @@ ansible-playbook -i inventory.txt ansible-playbook.yaml
 ## Step 5: Verification
 
 1.  Go to the AWS Console -> EC2 -> Security Groups.
-2.  Find the Security Group attached to the `learn-terraform` instance.
+2.  Find the Security Group attached to the `nginx-web-server` instance.
 3.  Edit **Inbound Rules** and add:
     *   **Type:** HTTP
     *   **Port:** 80
